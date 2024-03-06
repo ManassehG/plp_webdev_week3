@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <title>Using forms in HTML</title>
+
+    <!--custom css link-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+    <body>
+        <section id="forms">
+            <form >
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="name" placeholder="Enter your name">
+                <fieldset>
+                <legend>Choose your preffered payment method:</legend>
+                <input type="radio" id="creditCard" name="paymentMethod" value="creditCard">
+                <label for="creditCard">Credit Card</label>
+
+                <input type="radio" id="paypal" name="paymentMethod" value="paypal">
+                <label for="paypal">Paypal</label>
+
+                </fieldset>
+
+                <fieldset>
+                <legend>Interests</legend>
+                <input type="checkbox" id="football" name="interest" value="football">
+                <label for="football">Football</label>
+
+                <input type="checkbox" id="hockey" name="interest" value="hockey">
+                <label for="hockey">Hockey</label>
+
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+    </body>
+</html>
